@@ -12,9 +12,10 @@
   <div class="ml-auto m-3">
     <form method="post">
       <div class="btn-group" role="group" aria-label="Basic example">
-        <input id="a" class="btn " type="submit" name="ABC" value="7" onclick="changebackgroundColor('a')">
+        <input id="t" class="btn" type="submit" name="ABC" value="1" onclick="changebackgroundColor('t')">
+        <input id="a" class="btn" type="submit" name="ABC" value="7" onclick="changebackgroundColor('a')">
         <input id="b" class="btn" type="submit" name="ABC" value="30" onclick="changebackgroundColor('b')">
-        <input id="c" class="btn " type="submit" name="ABC" value="90" onclick="changebackgroundColor('c')">
+        <input id="c" class="btn" type="submit" name="ABC" value="90" onclick="changebackgroundColor('c')">
         <!-- <input type="submit" value="Submit"> -->
       </div>
     </form>
@@ -31,16 +32,23 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <!-- <script src="../js/chart1.js"></script> -->
 <script type="text/javascript">
+  print("")
   var abcd= JSON.parse('{{ data | tojson }}');
+  // var abcd = JSON.parse('{{data}}')
+  // console.log(typeof(data))
   var x = []
   var y=[]
   // console.log(username)
+  x_axis_label="Days"
   console.log(abcd.x)
+  if(abcd.x.length==24)
+  {changebackgroundColor("t")
+  x_axis_label="Today"}
   if(abcd.x.length==7)
   changebackgroundColor("a")
   else if(abcd.x.length==30)
   changebackgroundColor("b")
-  else
+  else if(abcd.x.length==90)
   changebackgroundColor("c")
 
   // console.log(y.length)
@@ -65,7 +73,13 @@ var options = {
       gridLines: {
         display: true,
         // color: "rgba(255,99,132,0.2)"
-      }
+      },
+      scaleLabel: {
+          display: true,
+          labelString: 'COUNT',
+          fontSize: 18,
+          fontColor: 'black'
+        }
     }
     
     
@@ -81,7 +95,14 @@ var options = {
         ticks: {
           autoSkip: true,
           maxRotation: 90,
-          minRotation: 90
+          minRotation: 90,
+          beginAtZero: true
+        },
+        scaleLabel: {
+          display: true,
+          labelString: x_axis_label,
+          fontSize: 18,
+          fontColor: 'black'
         }
       }
     ]
@@ -95,18 +116,18 @@ var mixedChart = new Chart(ctx, {
         datasets: [
         {
             label: 'BenchMark',
-            data: abcd.y,
+            data: abcd.a,
             backgroundColor: "rgb(0, 255, 255, .7)",
             type: 'line'
         },
         {
             label: 'Men',
-            data: abcd.y,
+            data: abcd.m,
             backgroundColor: "#6666ff"
         },
         {
             label: 'Women',
-            data: abcd.y,
+            data: abcd.f,
             backgroundColor: "#ff4d4d"
         }
       
@@ -119,23 +140,35 @@ var mixedChart = new Chart(ctx, {
 // var a
 function changebackgroundColor(value){
   console.log(value)
+  var t= document.getElementById("t");
   var a= document.getElementById("a");
   var b= document.getElementById("b");
   var c= document.getElementById("c");
 
+  if(value=="t"){
+    console.log("amm")
+    t.classList.add("btn-success");
+    a.classList.add("btn-secondary");
+    b.classList.add("btn-secondary");
+    c.classList.add("btn-secondary");
+  }
+
   if(value=="a"){
-    console.log("aaa")
-    a.classList.add("btn-primary");
+    t.classList.add("btn-secondary");
+    a.classList.add("btn-success");
     b.classList.add("btn-secondary");
     c.classList.add("btn-secondary")
   }
   if(value=="b"){
-    b.classList.add("btn-primary");
+    t.classList.add("btn-secondary");
+    b.classList.add("btn-success");
     a.classList.add("btn-secondary");
     c.classList.add("btn-secondary")
   }
   if(value=="c"){
-    c.classList.add("btn-primary");
+    console.log("dbdbdn")
+    t.classList.add("btn-secondary");
+    c.classList.add("btn-success");
     b.classList.add("btn-secondary");
     a.classList.add("btn-secondary")
   }
@@ -144,27 +177,28 @@ function changebackgroundColor(value){
 setInterval(function () {
 		updatedDataSet = 
     updateBarGraph(mixedChart,'Prediction', "red", [1, 2, 3]);
-  }, 20000);
+  }, 40000);
 
 function updateBarGraph(chart, label, color, dat) {
+    reload();
     chart.data.datasets.pop();
     chart.data.datasets.pop();
     chart.data.datasets.pop();
     chart.data.datasets.push(
         {
             label: 'BenchMark',
-            data: abcd.y,
+            data: abcd.a,
             backgroundColor: "rgb(0, 255, 255, .7)",
             type: 'line'
         },
         {
             label: 'Men',
-            data: abcd.y,
+            data: abcd.m,
             backgroundColor: "#6666ff"
         },
         {
             label: 'Women',
-            data: abcd.y,
+            data: abcd.f,
             backgroundColor: "#ff4d4d"
         }
       
@@ -174,6 +208,23 @@ function updateBarGraph(chart, label, color, dat) {
     chart.update();
 }
 
+function reload(){
+  $(document).ready(function() {
+        $.getJSON('/chart', function(data) {
+          // console.log(abc)
+          // return console.log(data)
+          abcd=data
+          console.log("data Updated")
+        }).fail(function (jqxhr, status, error) { 
+console.log('error', status, error) }
+);;
+    });
+}
+
+
 </script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+
 
 {% endblock %}
