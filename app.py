@@ -1,34 +1,26 @@
 from flask import Flask, render_template, request
 from pymongo import MongoClient
 from pprint import pprint
-
 import configparser
 import database
-# import plot
+import time
+import random
+import calendar
+import json
 
 
-from datetime import datetime
-from datetime import date
-now = datetime. now()
-timestamp = datetime.timestamp(now)
+weekdays=[]
+count=[]
+data_to_html=[]
 
 
+# **************Get the DataBase Host Details*****************
 parser = configparser.ConfigParser()
 parser.read('./config/config.ini')
-
-
-import time
 host = (parser.get('DEV', 'DATABASE'))
 
 
-
-from datetime import date, timedelta
-import random
-import calendar
-
-
-import json
-
+# ****************** Load Json Data for inserting to database ******************
 with open('data.json') as f:
   data = json.load(f)
 
@@ -39,20 +31,15 @@ database.connect_mongo(host,'traffic_data','alpha')
 
 app = Flask(__name__)
 
-weekdays=[]
-count=[]
+#  ************************ HOME ROUTE ****************************
 @app.route('/')
 def index():
  return render_template('home.html')
 
-# @app.route('/plot.png')
-# def plot1():
-#   weekdays, counts = database.get_from_mongo(90)
-#   return plot.plot_png(weekdays, counts)
-data_to_html=[]
+# ************************* PLOTING GRAPH **********************
+
 @app.route('/chart',methods=['GET', 'POST'])
 def chart():
-  # print(request.is_xhr)
   
   if request.method == 'POST':
     value= request.form['ABC']
@@ -72,9 +59,8 @@ def chart():
     data=json.dumps(data)
     return data
   
-  
 
-
+# ***************** INSERT INTO DATABASE ******************
 @app.route('/alpha')
 def index_alpha():
   b=0

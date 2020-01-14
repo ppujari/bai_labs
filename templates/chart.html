@@ -2,7 +2,6 @@
 
 {% block body %}
 
-<!-- <h1>Home{{var1}}</h1> -->
 
 <div class="d-flex mb-2">
   <div>
@@ -16,7 +15,6 @@
         <input id="a" class="btn" type="submit" name="ABC" value="7" onclick="changebackgroundColor('a')">
         <input id="b" class="btn" type="submit" name="ABC" value="30" onclick="changebackgroundColor('b')">
         <input id="c" class="btn" type="submit" name="ABC" value="90" onclick="changebackgroundColor('c')">
-        <!-- <input type="submit" value="Submit"> -->
       </div>
     </form>
   </div>
@@ -30,17 +28,14 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
-<!-- <script src="../js/chart1.js"></script> -->
+
 <script type="text/javascript">
-  print("")
   var abcd= JSON.parse('{{ data | tojson }}');
-  // var abcd = JSON.parse('{{data}}')
-  // console.log(typeof(data))
   var x = []
   var y=[]
-  // console.log(username)
+ 
   x_axis_label="Days"
-  console.log(abcd.x)
+
   if(abcd.x.length==24)
   {changebackgroundColor("t")
   x_axis_label="Today"}
@@ -51,7 +46,6 @@
   else if(abcd.x.length==90)
   changebackgroundColor("c")
 
-  // console.log(y.length)
   var data = {
   labels: x,
   datasets: [{
@@ -72,7 +66,6 @@ var options = {
       stacked: true,
       gridLines: {
         display: true,
-        // color: "rgba(255,99,132,0.2)"
       },
       scaleLabel: {
           display: true,
@@ -81,9 +74,6 @@ var options = {
           fontColor: 'black'
         }
     }
-    
-    
-    
     
     ],
     xAxes: [
@@ -109,7 +99,6 @@ var options = {
   }
 };
 
-// console.log()
 var mixedChart = new Chart(ctx, {
     type: 'bar',
     data: {
@@ -137,16 +126,16 @@ var mixedChart = new Chart(ctx, {
     },
     options: options
 });
-// var a
+
 function changebackgroundColor(value){
-  console.log(value)
+
   var t= document.getElementById("t");
   var a= document.getElementById("a");
   var b= document.getElementById("b");
   var c= document.getElementById("c");
 
   if(value=="t"){
-    console.log("amm")
+    
     t.classList.add("btn-success");
     a.classList.add("btn-secondary");
     b.classList.add("btn-secondary");
@@ -166,7 +155,7 @@ function changebackgroundColor(value){
     c.classList.add("btn-secondary")
   }
   if(value=="c"){
-    console.log("dbdbdn")
+    
     t.classList.add("btn-secondary");
     c.classList.add("btn-success");
     b.classList.add("btn-secondary");
@@ -201,8 +190,6 @@ function updateBarGraph(chart, label, color, dat) {
             data: abcd.f,
             backgroundColor: "#ff4d4d"
         }
-      
-    
     
     );
     chart.update();
@@ -211,20 +198,17 @@ function updateBarGraph(chart, label, color, dat) {
 function reload(){
   $(document).ready(function() {
         $.getJSON('/chart', function(data) {
-          // console.log(abc)
-          // return console.log(data)
           abcd=data
           console.log("data Updated")
         }).fail(function (jqxhr, status, error) { 
-console.log('error', status, error) }
-);;
+              console.log('error', status, error) }
+        );
     });
 }
 
 
 </script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
 
 
 {% endblock %}
