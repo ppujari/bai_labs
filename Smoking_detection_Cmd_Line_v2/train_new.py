@@ -120,7 +120,6 @@ for epoch in range(epochs):
 
 FILEPATH="smoking.pth"
 torch.save(model,FILEPATH)
-#torch.save(model, 'aerialmodel.pth')
 
 plt.plot(train_losses, label='Training loss')
 plt.plot(test_losses, label='Validation loss')
