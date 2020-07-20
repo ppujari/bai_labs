@@ -42,7 +42,7 @@ python train_new.py
 ```
 
 * This will give you stats about: 
-  Wether the video is smoking or non smoking
+  Whether the video is smoking or non smoking
   % of Smoking detected in the video (based on the frames)
 
 
