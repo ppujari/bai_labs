@@ -1,6 +1,7 @@
 import numpy as np
 import argparse
 import glob
+import sys
 from PIL import Image
 import json, time, copy
 import cv2,os, glob
@@ -26,6 +27,10 @@ parser.add_argument('--frames_dir', default=None, help='video frames to classify
 parser.add_argument('--eps',type=int,default=1,help='No of Epochs')
 parser.add_argument('--lr',type=float,default=0.003,help='Learning rate')
 args=parser.parse_args()
+
+if args.lr >= 1:
+	print("Please enter a learning rate between 0 & 1")
+	sys.exit()
 
 #frames=args.frames_dir
 
