@@ -62,11 +62,8 @@ def FrameCapture(path):
     S=0
     N=0
     cap = cv2.VideoCapture(os.path.join(data_dir,path)) 
-    #print(cap.isOpened())
-    #print(vidObj)
     count = 0
     success = 0
-    #video_name=(path.split('/'))[-1]
     while(cap.isOpened()): 
   
         success, image = cap.read() 
@@ -83,7 +80,6 @@ def FrameCapture(path):
         else :
         	N+=1
         count += 1
-        #print(count,end=" ")
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
     cap.release()
@@ -91,7 +87,6 @@ def FrameCapture(path):
     print()
     print(f"Smoking %: {S/count:.3f}.. "
     	 f"Non Smoking %: {N/count:.3f}.. ")
-    #print(str(S>N)
     print()
     print("Predicting...\n")
     if S>N :
@@ -103,7 +98,6 @@ def predict_image(image):
     image_tensor = test_transforms(image).float()
     image_tensor = image_tensor.unsqueeze_(0)
     input_var = Variable(image_tensor)
-    #input = input.to(device)
     output = model(input_var)
     #print(output)
     index = output.data.cpu().numpy().argmax()

@@ -20,10 +20,7 @@ import torch.nn as nn
 import torchvision.models as models
 from torch.autograd import Variable
 
-#from test import *
-
 parser=argparse.ArgumentParser()
-parser.add_argument('--frames_dir', default=None, help='video frames to classify, please give the directory path')
 parser.add_argument('--eps',type=int,default=1,help='No of Epochs')
 parser.add_argument('--lr',type=float,default=0.003,help='Learning rate')
 args=parser.parse_args()
@@ -32,11 +29,6 @@ if args.lr >= 1:
 	print("Please enter a learning rate between 0 & 1")
 	sys.exit()
 
-#frames=args.frames_dir
-
-
-#model = models.resnet50(pretrained=True)
-#print(model)
 data_transform=transforms.Compose([
             transforms.Resize(256),
             transforms.CenterCrop(256),
@@ -46,10 +38,8 @@ data_transform=transforms.Compose([
 model = models.alexnet(pretrained = True)
 print(model)
 
-
 for param in model.parameters():
     param.requires_grad = False
-
 
 classifier = nn.Sequential(OrderedDict([
                               ('fc1', nn.Linear(9216, 4096)),
@@ -57,14 +47,13 @@ classifier = nn.Sequential(OrderedDict([
                               ('fc2', nn.Linear(4096, 2)),
                               ('output', nn.LogSoftmax(dim=1))
                               ]))
-model.classifier=classifier
 
+model.classifier=classifier
 criterion = nn.NLLLoss()
 optimizer = optim.Adam(model.classifier.parameters(), args.lr)
-#model.to(device)
 
 
-data_dir = '/home/avi/Desktop/SMokedetector_base/data_new'
+data_dir = 'path to dataset'
 
 dirs = {'train': data_dir + '/Train', 
         'valid': data_dir + '/Valid', 
