@@ -19,16 +19,16 @@ import torch.nn as nn
 import torchvision.models as models
 from torch.autograd import Variable
 
+parser=argparse.ArgumentParser()
+parser.add_argument('--path', default="./test", help='video frames to classify, please give the directory path')
+parser.add_argument('--model',default = "smoking.pth", help = 'please give the path to the trained model')
+args=parser.parse_args()
 
-FILEPATH="smoking.pth"
+FILEPATH = args.model
+
 #model=alexnet()
 model = torch.load(FILEPATH)
 model.eval()
-
-
-parser=argparse.ArgumentParser()
-parser.add_argument('--frames_dir', default=None, help='video frames to classify, please give the directory path')
-args=parser.parse_args()
 
 test_transforms=transforms.Compose([
             transforms.Resize(256),
