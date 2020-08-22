@@ -1,0 +1,37 @@
+﻿#pytorch requirements
+sphinx
+sphinx-gallery==0.3.1
+tqdm
+matplotlib
+torch
+torchvision
+torchtext
+torchaudio
+#PyHamcrest
+#bs4
+#awscli==1.16.35
+flask
+#Spacy
+ipython
+argparse
+# to run examples
+pandas
+scikit-image
+scikit-learn
+# pillow >= 4.2 will throw error when trying to write mode RGBA as JPEG,
+# this is a workaround to the issue.
+pillow==4.1.1
+wget
+nltk
+opencv-python
+numpy
+scipy
+cython
+progress
+wheel
+#COMMAND TO INSTALL USING PIP
+#pip install -r requirements.txt
+
+
+#COMMAND TO INSTALL USING ANACONDA 
+#conda install --file requirements.txt
