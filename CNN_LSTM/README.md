@@ -37,7 +37,7 @@ Here we get the features from the input and reshape it using VIEW in pytorch (li
 			f = f.view(f.size(0), -1) # getting reshaped here.
 			#print(f.shape) #torch.Size([8, 9216]) #after reshaping.
 
-			If we do not reshape is using view we get a matrix multiplication error m1 x m2
+			If we do not reshape it using view we get a matrix multiplication error m1 x m2
 ```
 
 Please let us know the steps further.
