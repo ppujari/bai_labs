@@ -104,50 +104,13 @@ def predict_image(image):
     return index
 
 
-def get_random_images(num):
-    data = datasets.ImageFolder(data_dir, transform=test_transforms)
-    #print(data)
-    global classes
-    classes = data.classes
-    print("Classes...")
-    print(classes)
-    indices = list(range(len(data)))
-    np.random.shuffle(indices)
-    idx = indices[:num]
-    from torch.utils.data.sampler import SubsetRandomSampler
-    sampler = SubsetRandomSampler(idx)
-    loader = torch.utils.data.DataLoader(data,sampler=sampler, batch_size=num)
-    dataiter = iter(loader)
-    images, labels = dataiter.next()
-    print(images)
-    return images, labels
-
 
 for video_name in os.listdir(data_dir):
     print(video_name)
     FrameCapture(video_name)
-'''
-to_pil = transforms.ToPILImage()
-images, labels = get_random_images(9)
-fig=plt.figure(figsize=(50,50))
-for ii in range(len(images)):
-    image = to_pil(images[ii])
-    #plt.imshow(image)
-    index = predict_image(image)
-    #output from prediction.
-    print(index)
-    sub = fig.add_subplot(1, len(images), ii+1)
-    res = int(labels[ii]) == index
-    sub.set_title(str(res))
-    #sub.set_title(str(classes) + ":" + str(res))
-    plt.axis('off')
-    plt.imshow(image)
-plt.show()
-'''
 
 
 '''
-
 def main():
 	#global args
 	#args = parser.parse_args()
