@@ -32,7 +32,7 @@ Use several 3D kernels of size *(a,b,c)* and channels *n*,  *e.g., (a, b, c, n) 
   - `3DCNN.py`: model parameters, training/testing process.
   - `function.py`: modules of 3DCNN data loaders, and some useful functions.
 
-### 0. Prerequisites (dependencies)
+### 1. Prerequisites (dependencies)
 - [Python 3.6](https://www.python.org/) (or above)
 - [PyTorch](https://pytorch.org/)
 - [Numpy 1.15.0](http://www.numpy.org/) 
