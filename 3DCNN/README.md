@@ -45,9 +45,8 @@ Use several 3D kernels of size *(a,b,c)* and channels *n*,  *e.g., (a, b, c, n) 
 ### 2. Set parameters & path
 
 ```
-data_path = "./UCF101/jpegs_256/"         # UCF101 video path
-action_name_path = "./UCF101actions.pkl"
-save_model_path = "./model_ckpt/"
+data_path = "./dataset/images/"         #video path
+save_model_path = "./Conv3D_ckpt/"
 ```
 
 ### 3. Train & test model
