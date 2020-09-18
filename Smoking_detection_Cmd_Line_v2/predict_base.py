@@ -20,7 +20,7 @@ import torchvision.models as models
 from torch.autograd import Variable
 
 parser=argparse.ArgumentParser()
-parser.add_argument('--path', default="./test", help='video frames to classify, please give the directory path')
+parser.add_argument('--frames_dir', default="./test", help='video frames to classify, please give the directory path')
 parser.add_argument('--model',default = "smoking.pth", help = 'please give the path to the trained model')
 args=parser.parse_args()
 
