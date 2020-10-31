@@ -19,6 +19,8 @@ import torch.nn as nn
 import torchvision.models as models
 from torch.autograd import Variable
 
+import VideoPlayer as vp
+
 parser=argparse.ArgumentParser()
 parser.add_argument('--frames_dir', default="./test", help='video frames to classify, please give the directory path')
 parser.add_argument('--model',default = "smoking.pth", help = 'please give the path to the trained model')
@@ -36,6 +38,9 @@ test_transforms=transforms.Compose([
             transforms.ToTensor()])
             
 data_dir=args.frames_dir
+
+vp.vidir = os.listdir(data_dir)
+#vp.diplay()
 
 '''
 def test(input, model, eval_ratio=0.5):
@@ -85,8 +90,7 @@ def FrameCapture(path):
     cap.release()
     cv2.destroyAllWindows()
     print()
-    print(f"Smoking %: {S/count:.3f}.. "
-    	 f"Non Smoking %: {N/count:.3f}.. ")
+    print("Smoking %: {:.3f}.. Non Smoking %: {:.3f}.. ".format(S/count,N/count))
     print()
     print("Predicting...\n")
     if S>N :
@@ -105,9 +109,9 @@ def predict_image(image):
 
 
 
-for video_name in os.listdir(data_dir):
+"""for video_name in os.listdir(data_dir):
     print(video_name)
-    FrameCapture(video_name)
+    FrameCapture(video_name)"""
 
 
 '''
