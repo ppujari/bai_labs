@@ -20,7 +20,7 @@ scikit-image
 scikit-learn
 # pillow >= 4.2 will throw error when trying to write mode RGBA as JPEG,
 # this is a workaround to the issue.
-pillow==4.1.1
+pillow==7.1.0
 wget
 nltk
 opencv-python
