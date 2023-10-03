@@ -1,4 +1,4 @@
-﻿#pytorch requirements
+#pytorch requirements
 sphinx
 sphinx-gallery==0.3.1
 tqdm
@@ -20,7 +20,7 @@ scikit-image
 scikit-learn
 # pillow >= 4.2 will throw error when trying to write mode RGBA as JPEG,
 # this is a workaround to the issue.
-pillow==4.1.1
+pillow==10.0.1
 wget
 nltk
 opencv-python
