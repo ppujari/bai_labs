@@ -1,0 +1,760 @@
+
+ECODE: 16BGIULQFDPWDRTBXRIP | TITLE: Body Glide Skin Glide Anti Friction Cream
+  - prefix           cue=anti     span=(22, 35) text='Anti Friction' scope='Friction'
+
+ECODE: 17TCHUNTSNKDSCFT4ODR | TITLE: TravelChair Anti-Sink Disc Feet – Set of 4
+  - prefix           cue=anti     span=(12, 21) text='Anti-Sink' scope='Sink'
+
+ECODE: 18ECLU3ZNRLLSNKR2TER | TITLE: Eagle Claw Lead No Roll Sinker
+  - phrase           cue=no       span=(16, 30) text='No Roll Sinker' scope='Roll Sinker'
+
+ECODE: 18FEEULTLTCSHNNSHAPA | TITLE: Feetures Elite Light Cushion No Show Tab Socks
+  - phrase           cue=no       span=(29, 46) text='No Show Tab Socks' scope='Show Tab Socks'
+
+ECODE: 18SRLABSDLTBRSNSLSCA | TITLE: Storelli Adult BodyShield Anti-Abrasion Soccer Sliders
+  - prefix           cue=anti     span=(26, 39) text='Anti-Abrasion' scope='Abrasion'
+
+ECODE: 19QYFUDSGNSHW6PKXAPA | TITLE: DSG No Show Socks - 6 Pack
+  - phrase           cue=no       span=(4, 17) text='No Show Socks' scope='Show Socks'
+
+ECODE: 21FEEUGLFMXNSHWTBAPA | TITLE: Feetures Men’s Max Custion No Show Tab Golf Socks
+  - phrase           cue=no       span=(27, 43) text='No Show Tab Golf' scope='Show Tab Golf'
+
+ECODE: 21NIKTNKTDDLRBSC6APA | TITLE: Nike Youth Basic No Show Socks – 6 pack
+  - phrase           cue=no       span=(17, 30) text='No Show Socks' scope='Show Socks'
+
+ECODE: 21RGEANTTHFTTRLRCPSR | TITLE: Rightline Gear Anti-Theft Coupler Ball and Lock
+  - prefix           cue=anti     span=(15, 25) text='Anti-Theft' scope='Theft'
+
+ECODE: 21ZAAACCNTNTCHFCRPPR | TITLE: Chamois Butt'r Coconut Anti-Chafe Cream 10 Pack
+  - prefix           cue=anti     span=(23, 33) text='Anti-Chafe' scope='Chafe'
+
+ECODE: 22NLKUNSCNCLLNGRBTCH | TITLE: iLIVE Truly Wire-Free Earbuds with ANC and Wireless Charging Case
+  - phrase           cue=x_free   span=(12, 21) text='Wire-Free' scope='Wire'
+
+ECODE: 22YETURDRNDFT4PCKREC | TITLE: YETI BearFoot Non-Slip Feet
+  - prefix           cue=non      span=(14, 22) text='Non-Slip' scope='Slip'
+
+ECODE: 2347BMNBBLLSRDNSHCHI | TITLE: '47 Adult Chicago Bulls No Shot Captain Snapback Hat
+  - phrase           cue=no       span=(24, 48) text='No Shot Captain Snapback' scope='Shot Captain Snapback'
+
+ECODE: 2347BMNBHRNTSPRPNCHA | TITLE: '47 Adult Charlotte Hornets No Shot Captain Snapback Hat
+  - phrase           cue=no       span=(28, 52) text='No Shot Captain Snapback' scope='Shot Captain Snapback'
+
+ECODE: 2347BMNBMVSRYLNSHDAL | TITLE: '47 Adult Dallas Mavericks No Shot Captain Snapback Hat
+  - phrase           cue=no       span=(27, 51) text='No Shot Captain Snapback' scope='Shot Captain Snapback'
+
+ECODE: 23JLOWCLNSPRHGHRSAPBA | TITLE: CALIA Women's Inspire High Rise No Pocket 7/8 Legging
+  - phrase           cue=no       span=(32, 41) text='No Pocket' scope='Pocket'
+
+ECODE: 23LMTUCTCRPBLSTRPSSP | TITLE: Liberty Mountain Cat Crap Anti-Fog Blister Pack
+  - prefix           cue=anti     span=(26, 34) text='Anti-Fog' scope='Fog'
+
+ECODE: 23SWLMVRDFRTPRTNSSOX | TITLE: Smartwool Everyday Zero Cushion Far Out Tie Dye Print No Show Socks
+  - phrase           cue=no       span=(54, 67) text='No Show Socks' scope='Show Socks'
+
+ECODE: 24AVFAWFCHNTWNLKGIND | TITLE: Where I'm From Adult Chicago No Town Like Chi Town T-Shirt
+  - phrase           cue=no       span=(29, 45) text='No Town Like Chi' scope='Town Like Chi'
+
+ECODE: 24BLLMNFRRTHQTTXXBBA | TITLE: Baseballism Men's No Fear Babe Ruth T-Shirt
+  - phrase           cue=no       span=(18, 35) text='No Fear Babe Ruth' scope='Fear Babe Ruth'
+
+ECODE: 24BNDM25NTDT1STNDPTR | TITLE: Bettinardi Antidote SB1 Putter
+  - prefix           cue=anti     span=(11, 19) text='Antidote' scope='dote'
+
+ECODE: 24ROXWNWKKSJCKTXXSRF | TITLE: Roxy Women's No Wokkas Jacket
+  - phrase           cue=no       span=(13, 29) text='No Wokkas Jacket' scope='Wokkas Jacket'
+
+ECODE: 24TYRALNGHRSLCNCPSWE | TITLE: TYR Adult Long Hair Silicone Wrinkle-Free Swim Cap
+  - phrase           cue=x_free   span=(29, 41) text='Wrinkle-Free' scope='Wrinkle'
+
+ECODE: 24UARASSNTLNSHW6PSOX | TITLE: Under Armour Unisex Essential No Show Socks - 6 Pack
+  - phrase           cue=no       span=(30, 43) text='No Show Socks' scope='Show Socks'
+
+ECODE: 24ULVABGFTNSHSHTXMOA | TITLE: Sprints Big Feet No Shoes Hat
+  - phrase           cue=no       span=(17, 29) text='No Shoes Hat' scope='Shoes Hat'
+
+ECODE: 25BASBBASEYTHPRSRSGQI | TITLE: Baseball Lifestyle 101 Boys' 5” Pro Series Liner-less Shorts
+  - comparative_less cue=less     span=(49, 60) text='less Shorts' scope='Shorts'
+
+ECODE: 25BETMGOLFBTTNRDSBXEG | TITLE: Bettinardi Antidote SB5 Limited Blackout Putter
+  - prefix           cue=anti     span=(11, 19) text='Antidote' scope='dote'
+
+ECODE: 25EAGUFISHCCCRLBTHZHQ | TITLE: Eagle Claw Lazer Sharp Non-Offset Baitholder Circle Hook
+  - prefix           cue=non      span=(23, 33) text='Non-Offset' scope='Offset'
+
+ECODE: 25GMJANCGRGRDVNTGGEO | TITLE: No Rivals Adult Georgia Bulldogs Red Vintage Snapback
+  - phrase           cue=no       span=(0, 23) text='No Rivals Adult Georgia' scope='Rivals Adult Georgia'
+
+ECODE: 25GMJANCLMSSNVYVNMIS | TITLE: No Rivals Adult Ole Miss Rebels Navy Vintage Snapback
+  - phrase           cue=no       span=(0, 19) text='No Rivals Adult Ole' scope='Rivals Adult Ole'
+
+ECODE: 25GMJANCLSPRPVNTGLSU | TITLE: No Rivals Adult LSU Tigers Purple Vintage Snapback
+  - phrase           cue=no       span=(0, 19) text='No Rivals Adult LSU' scope='Rivals Adult LSU'
+
+ECODE: 25GMJANCTNNRGRTRBTEN | TITLE: No Rivals Adult Tennessee Volunteers Orange Retro Block Snapback
+  - phrase           cue=no       span=(0, 25) text='No Rivals Adult Tennessee' scope='Rivals Adult Tennessee'
+
+ECODE: 25ICYUFITNCYHTRLLNBEF | TITLE: Icy Hot No Mess Pain Relief Roll On 1.5 oz
+  - phrase           cue=no       span=(8, 27) text='No Mess Pain Relief' scope='Mess Pain Relief'
+
+ECODE: 25KATUHIKIBFRCTVTDFMA | TITLE: Katadyn BeFree Activated Carbon 3-Pack
+  - phrase           cue=x_free   span=(8, 14) text='BeFree' scope='None'
+
+ECODE: 25NIKWFITNNVRS78TGBDA | TITLE: Nike Women's Universa High-Waisted 7/8 Leggings with No Front Seam
+  - phrase           cue=no       span=(53, 66) text='No Front Seam' scope='Front Seam'
+
+ECODE: 25NOLUFISH3PDDLTLKKEA | TITLE: No Live Bait Needed 3” Paddle Tail
+  - phrase           cue=no       span=(0, 19) text='No Live Bait Needed' scope='Live Bait Needed'
+
+ECODE: 25OBXAFDSTRPCSHNSSOX | TITLE: Bombas Adult Feedstripe Cushioned No Show Socks - 3 Pack
+  - phrase           cue=no       span=(34, 47) text='No Show Socks' scope='Show Socks'
+
+ECODE: 25THOAPICKTHRLPCKLQMO | TITLE: Thorlo Pickleball Light Cushion No Show Tab Sock - 2 Pack
+  - phrase           cue=no       span=(32, 48) text='No Show Tab Sock' scope='Show Tab Sock'
+
+ECODE: 16JUGUDMPLDYLLWBLTRA | TITLE: Jugs Sting-Free Dimpled Yellow Pitching Machine Baseballs - 12 Pack
+  - phrase           cue=x_free   span=(5, 15) text='Sting-Free' scope='Sting'
+
+ECODE: 16JUGUDMPLDYLLWSFTRAX | TITLE: Jugs 11" Sting-Free Dimpled Pitching Machine Softballs - 12 Pack
+  - phrase           cue=x_free   span=(9, 19) text='Sting-Free' scope='Sting'
+
+ECODE: 16JUGUSTNGFRSMBSBTRA | TITLE: Jugs Sting-Free Realistic-Seam Pitching Machne Baseballs - 12 Pack
+  - phrase           cue=x_free   span=(5, 15) text='Sting-Free' scope='Sting'
+
+ECODE: 20WHGMWH11PRFRMNCAPA | TITLE: Walter Hagen Performance No Show Golf Socks – 2 Pack
+  - phrase           cue=no       span=(25, 43) text='No Show Golf Socks' scope='Show Golf Socks'
+
+ECODE: 21HOFUCHC55CMNTBREAC | TITLE: ZIVA Chic Anti-Burst Core Fit Ball
+  - prefix           cue=anti     span=(10, 20) text='Anti-Burst' scope='Burst'
+
+ECODE: 21KATUGRVTYBFR6LMCAC | TITLE: Katadyn Gravity BeFree 6L Microfilter
+  - phrase           cue=x_free   span=(16, 22) text='BeFree' scope='None'
+
+ECODE: 21TYRUSPCPS20NNMRSWE | TITLE: TYR Adult Special Ops 2.0 Non-Mirrored Goggles
+  - prefix           cue=non      span=(26, 38) text='Non-Mirrored' scope='Mirrored'
+
+ECODE: 2347BMNBCVSRDNSHTCLE | TITLE: '47 Adult Cleveland Cavaliers No Shot Captain Snapback Hat
+  - phrase           cue=no       span=(30, 54) text='No Shot Captain Snapback' scope='Shot Captain Snapback'
+
+ECODE: 2347BMNBTBLZRSRDNPOR | TITLE: '47 Adult Portland Trail Blazers No Shot Captain Snapback Hat
+  - phrase           cue=no       span=(33, 57) text='No Shot Captain Snapback' scope='Shot Captain Snapback'
+
+ECODE: 2347BMNBWZRDSNVYNWAS | TITLE: '47 Adult Washington Wizards No Shot Captain Snapback Hat
+  - phrase           cue=no       span=(29, 53) text='No Shot Captain Snapback' scope='Shot Captain Snapback'
+
+ECODE: 23KATUGRVTYBFR3LMCAC | TITLE: Katadyn BeFree Gravity Water Filtration System 3L
+  - phrase           cue=x_free   span=(8, 14) text='BeFree' scope='None'
+
+ECODE: 23LVWMMLBRYLSRYLZKCR | TITLE: Levelwear Men's Kansas City Royals City Connect Royal Zane No Hitter Crew Neck Sweatshirt
+  - phrase           cue=no       span=(59, 78) text='No Hitter Crew Neck' scope='Hitter Crew Neck'
+
+ECODE: 23SHPWPRMNTTHFTCRBAG | TITLE: Sherpani Prima Anti-Theft Crossbody Bag
+  - prefix           cue=anti     span=(15, 25) text='Anti-Theft' scope='Theft'
+
+ECODE: 24ADIYNCNCSTRDNTDNCS | TITLE: adidas Youth NC State Wolfpack Red Not Deep T-Shirt
+  - phrase           cue=not      span=(35, 43) text='Not Deep' scope='Deep'
+
+ECODE: 24CWYUCHRMTRTRVS2GBL | TITLE: Callaway Chrome Tour Good Good Wheel of Not Ideal Golf Balls
+  - phrase           cue=not      span=(40, 60) text='Not Ideal Golf Balls' scope='Ideal Golf Balls'
+
+ECODE: 24ST1ACNCLGHTTBXXSOX | TITLE: Stance Iconic Light No Show Socks
+  - phrase           cue=no       span=(20, 33) text='No Show Socks' scope='Show Socks'
+
+ECODE: 24TYRASLCNSWMCPXXSWE | TITLE: TYR Adult Silicone Wrinkle-Free Swim Cap
+  - phrase           cue=x_free   span=(19, 31) text='Wrinkle-Free' scope='Wrinkle'
+
+ECODE: 24XASULRGVLTRMPLNSTG | TITLE: Springfree Trampoline 8 x 13 Foot Large Oval Trampoline
+  - phrase           cue=x_free   span=(0, 10) text='Springfree' scope='None'
+
+ECODE: 25ADIWWLFSTYLNNFLACC | TITLE: adidas Women's Lifestyle Non Fold Beanie
+  - prefix           cue=non      span=(25, 33) text='Non Fold' scope='Fold'
+
+ECODE: 25AELADVNCDFRMCNVPSK | TITLE: Advanced Elements AdvancedFrame Convertible Kayak without Pump
+  - phrase           cue=without  span=(50, 62) text='without Pump' scope='Pump'
+
+ECODE: 25BETMGOLF2026NTDTAXG | TITLE: Bettinardi Antidote SB5 Putter
+  - prefix           cue=anti     span=(11, 19) text='Antidote' scope='dote'
+
+ECODE: 25EJGALXSCCGRPCLFSOXA | TITLE: LUX Anti Slip Soccer Calf Socks - 3 Pack
+  - prefix           cue=anti     span=(4, 13) text='Anti Slip' scope='Slip'
+
+ECODE: 25GMJANCLMSSBLPSDMIS | TITLE: No Rivals Adult Ole Miss Rebels Light Blue Upside Down Adjustable Hat
+  - phrase           cue=no       span=(0, 19) text='No Rivals Adult Ole' scope='Rivals Adult Ole'
+
+ECODE: 25GMJANCLSPRPTRNGLSU | TITLE: No Rivals Adult LSU Tigers Purple Triangle Game Snapback
+  - phrase           cue=no       span=(0, 19) text='No Rivals Adult LSU' scope='Rivals Adult LSU'
+
+ECODE: 25GMJANCPSBLKLMMTPEN | TITLE: No Rivals Adult Penn State Nittany Lions Black Alma Mater Snapback
+  - phrase           cue=no       span=(0, 20) text='No Rivals Adult Penn' scope='Rivals Adult Penn'
+
+ECODE: 25KATUHIKIBFRC05LSHRE | TITLE: Katadyn BeFree Activated Carbon 0.5L Bottle
+  - phrase           cue=x_free   span=(8, 14) text='BeFree' scope='None'
+
+ECODE: 25MNNMF1MCLNLMTSSINT | TITLE: Mitchell & Ness Men's F1 McLaren Black No Limit T-Shirt
+  - phrase           cue=no       span=(39, 47) text='No Limit' scope='Limit'
+
+ECODE: 25NIKWFITNPR3SHRTXCQC | TITLE: Nike Women's Pro Mid-Rise 3" Bike Shorts With No Front Seam
+  - phrase           cue=no       span=(46, 59) text='No Front Seam' scope='Front Seam'
+
+ECODE: 25NOLUFISH3SHRMPTLFVG | TITLE: No Live Bait Needed Shrimp Tail Lure
+  - phrase           cue=no       span=(0, 19) text='No Live Bait Needed' scope='Live Bait Needed'
+
+ECODE: 16ADIMMNS6PKNSHWXAPA | TITLE: adidas Originals Trefoil No Show Socks 6 Pack
+  - phrase           cue=no       span=(25, 38) text='No Show Socks' scope='Show Socks'
+
+ECODE: 16BGIUBDYGLDFT80ZRIP | TITLE: Body Glide Anti-Chafe Foot Balm
+  - prefix           cue=anti     span=(11, 21) text='Anti-Chafe' scope='Chafe'
+
+ECODE: 16IFOUHDDNCMFRTSMAPA | TITLE: Balega Hidden Comfort No Show Running Socks
+  - phrase           cue=no       span=(22, 43) text='No Show Running Socks' scope='Show Running Socks'
+
+ECODE: 16RGEUNNSKDRFPDXXPSR | TITLE: Rightline Gear Non-Skid Roof Pad
+  - prefix           cue=non      span=(15, 23) text='Non-Skid' scope='Skid'
+
+ECODE: 16WESUNNSTCK1HMBRCFP | TITLE: Weston Non-Stick Single Hamburger Press
+  - prefix           cue=non      span=(7, 16) text='Non-Stick' scope='Stick'
+
+ECODE: 17BGIWBDYGLDFRHR1RIP | TITLE: Body Glide Anti-Chafe Balm For Her
+  - prefix           cue=anti     span=(11, 21) text='Anti-Chafe' scope='Chafe'
+
+ECODE: 22UVOUMCFFNPNCTRTTAM | TITLE: Muc-Off No Puncture Hassle Tubeless Sealant - 140ml Pouch
+  - phrase           cue=no       span=(8, 35) text='No Puncture Hassle Tubeless' scope='Puncture Hassle Tubeless'
+
+ECODE: 22VLSMGLFNSHWTBBLAPA | TITLE: Under Armour Men's Elevated Performance No Show Tab Golf Socks
+  - phrase           cue=no       span=(40, 56) text='No Show Tab Golf' scope='Show Tab Golf'
+
+ECODE: 2347BMNBKNCKSRYLNNYK | TITLE: '47 Adult New York Knicks No Shot Captain Snapback Hat
+  - phrase           cue=no       span=(26, 50) text='No Shot Captain Snapback' scope='Shot Captain Snapback'
+
+ECODE: 2347BMNBSNSPRPNSHPHOA | TITLE: '47 Adult Phoenix Suns No Shot Captain Snapback Hat
+  - phrase           cue=no       span=(23, 47) text='No Shot Captain Snapback' scope='Shot Captain Snapback'
+
+ECODE: 2347BMNBSXRSRYLNSPHI | TITLE: '47 Adult Philadelphia 76ers No Shot Captain Snapback Hat
+  - phrase           cue=no       span=(29, 53) text='No Shot Captain Snapback' scope='Shot Captain Snapback'
+
+ECODE: 23BROURNNNS3PKXXXSOX | TITLE: Brooks Men’s Run-In No Show 3-Pack Socks
+  - phrase           cue=no       span=(20, 27) text='No Show' scope='Show'
+
+ECODE: 23JLOWCLPWRMV78LGAPB | TITLE: CALIA Women's PowerMove 7/8 No Seam Legging
+  - phrase           cue=no       span=(28, 43) text='No Seam Legging' scope='Seam Legging'
+
+ECODE: 23LVWMMLBPDRSGRYTSDP | TITLE: Levelwear Men's San Diego Padres 2023 City Connect Gray Throttle No Hitter Hoodie
+  - phrase           cue=no       span=(65, 81) text='No Hitter Hoodie' scope='Hitter Hoodie'
+
+ECODE: 23OBXASLDLGHTWGHTSOX | TITLE: Bombas Solid Lightweight No Show Socks
+  - phrase           cue=no       span=(25, 38) text='No Show Socks' scope='Show Socks'
+
+ECODE: 23UARWNSHWHPSTRSLAPU | TITLE: Under Armour Women's Pure Stretch No Show Hipster Underwear - 3 Pack
+  - phrase           cue=no       span=(34, 59) text='No Show Hipster Underwear' scope='Show Hipster Underwear'
+
+ECODE: 23YZMULQDVWHTPCHSGEN | TITLE: Liquid I.V. Sugar-Free Hydration Multiplier – 10 Pack
+  - phrase           cue=x_free   span=(12, 22) text='Sugar-Free' scope='Sugar'
+
+ECODE: 24BNDM2025NTDTSB2PTR | TITLE: Bettinardi Antidote SB2 Putter
+  - prefix           cue=anti     span=(11, 19) text='Antidote' scope='dote'
+
+ECODE: 24NIKWZNVYWDRBBRXAPU | TITLE: Nike Women's Zenvy Rib Light-Support Non-Padded Longline Sports Bra
+  - prefix           cue=non      span=(37, 47) text='Non-Padded' scope='Padded'
+
+ECODE: 24ROXWNBDWVSPTXXXSRF | TITLE: Roxy Women's No Bad Waves Printed Board Shorts
+  - phrase           cue=no       span=(13, 33) text='No Bad Waves Printed' scope='Bad Waves Printed'
+
+ECODE: 24UARMTRNNGCTTN6PAPA | TITLE: Under Armour Men’s Training Cotton No Show Golf Socks – 6 Pack
+  - phrase           cue=no       span=(35, 53) text='No Show Golf Socks' scope='Show Golf Socks'
+
+ECODE: 24WARUF2PRMSKNNCRHKP | TITLE: Warrior Hockey F2 Pro Goalie Mask - (Non-Certified Cat's Eye)
+  - prefix           cue=non      span=(37, 50) text='Non-Certified' scope='Certified'
+
+ECODE: 24WARUF2SRMSKNNCTHKP | TITLE: Warrior Hockey F2E+ Goalie Mask - Senior (Non-Certified)
+  - prefix           cue=non      span=(42, 55) text='Non-Certified' scope='Certified'
+
+ECODE: 24XASUMNRNDTRMPLNSTG | TITLE: Springfree Trampoline 6 Foot Mini Round Trampoline
+  - phrase           cue=x_free   span=(0, 10) text='Springfree' scope='None'
+
+ECODE: 25ESAUNNCNTCTTHRMACC | TITLE: Withings Thermo Smart Non-Contact Thermometer
+  - prefix           cue=non      span=(22, 33) text='Non-Contact' scope='Contact'
+
+ECODE: 25FSDU5NLLMLLTSTWLUR | TITLE: No Live Bait Needed Mullets Topwater Lure
+  - phrase           cue=no       span=(0, 19) text='No Live Bait Needed' scope='Live Bait Needed'
+
+ECODE: 25GMJANCLMSSNV2TNMIS | TITLE: No Rivals Adult Ole Miss Rebels Navy Two Tone Established Snapback
+  - phrase           cue=no       span=(0, 19) text='No Rivals Adult Ole' scope='Rivals Adult Ole'
+
+ECODE: 25GMJANCTXMMRNTRNTEX | TITLE: No Rivals Adult Texas A&M Aggies Maroon Triangle Game Adjustable Snapback
+  - phrase           cue=no       span=(0, 21) text='No Rivals Adult Texas' scope='Rivals Adult Texas'
+
+ECODE: 25KATUHIKIBFRC10LSUWQ | TITLE: Katadyn BeFree AC 1.0L Water Bottle
+  - phrase           cue=x_free   span=(8, 14) text='BeFree' scope='None'
+
+ECODE: 25NIKWFITNPR5SHRTXJQS | TITLE: Nike Women's Pro 5" Shorts With No Front Seam
+  - phrase           cue=no       span=(32, 45) text='No Front Seam' scope='Front Seam'
+
+ECODE: 25NIKWFRMTRNGLBRXAPU | TITLE: Nike Women's Form Light-Support Non-Padded Triangle Sports Bra
+  - prefix           cue=non      span=(32, 42) text='Non-Padded' scope='Padded'
+
+ECODE: 25NIKWPRBRNPDDDXXAPU | TITLE: Nike Women's Swoosh Medium Support Non-Padded Sports Bra
+  - prefix           cue=non      span=(35, 45) text='Non-Padded' scope='Padded'
+
+ECODE: 25NOLUFISH375PDDLTDKC | TITLE: No Live Bait Needed 3.75” Paddle Tail
+  - phrase           cue=no       span=(0, 19) text='No Live Bait Needed' scope='Live Bait Needed'
+
+ECODE: 25NOLUFISH3SHRMPJHZNK | TITLE: No Live Bait Needed Shrimp Jighead
+  - phrase           cue=no       span=(0, 19) text='No Live Bait Needed' scope='Live Bait Needed'
+
+ECODE: 16TYRAWRNKLFRSLCNSWE | TITLE: TYR Wrinkle-Free Silicone Cap
+  - phrase           cue=x_free   span=(4, 16) text='Wrinkle-Free' scope='Wrinkle'
+
+ECODE: 18NIKA6PKDFNSXXXXAPA | TITLE: Nike Dri-FIT Everyday Plus Cushioned Training No Show Socks - 6 Pack
+  - phrase           cue=no       span=(46, 59) text='No Show Socks' scope='Show Socks'
+
+ECODE: 18OBXMMNSCSHNDNSXAPA | TITLE: Bombas Men’s Cushioned No Show Socks
+  - phrase           cue=no       span=(23, 36) text='No Show Socks' scope='Show Socks'
+
+ECODE: 20UARMTRNNGCTSPRTAPA | TITLE: Under Armour Men’s Golf Cotton No Show Socks - 6 Pack
+  - phrase           cue=no       span=(31, 44) text='No Show Socks' scope='Show Socks'
+
+ECODE: 22LFVWNTCHFSTCKXXTHR | TITLE: Summary Friction Free Anti-Chafe Body Stick
+  - prefix           cue=anti     span=(22, 32) text='Anti-Chafe' scope='Chafe'
+
+ECODE: 23FEEALTMXCSHNNSHSOX | TITLE: Feetures Elite Max Cushion No Show Tab
+  - phrase           cue=no       span=(27, 38) text='No Show Tab' scope='Show Tab'
+
+ECODE: 24UARAHSTLLTBPXXXTRV | TITLE: Under Armour No Weigh Backpack
+  - phrase           cue=no       span=(13, 30) text='No Weigh Backpack' scope='Weigh Backpack'
+
+ECODE: 24UARYYPRFTCH6PKNSOX | TITLE: Under Armour Youth Performance Tech 6-Pack No Show Socks
+  - phrase           cue=no       span=(43, 56) text='No Show Socks' scope='Show Socks'
+
+ECODE: 17ANRUPRSTCKWHT72HKA | TITLE: A & R Pro-Stock Non-Waxed Hockey Skate Laces
+  - prefix           cue=non      span=(16, 25) text='Non-Waxed' scope='Waxed'
+
+ECODE: 17XASUMDMVLSMRTTRSTG | TITLE: Springfree 8x11 Foot Medium Oval Trampoline
+  - phrase           cue=x_free   span=(0, 10) text='Springfree' scope='None'
+
+ECODE: 17XASUSPRNGFRFLXRSTG | TITLE: Springfree Trampoline FlexrHoop
+  - phrase           cue=x_free   span=(0, 10) text='Springfree' scope='None'
+
+ECODE: 18FEEULTMXCSHNNSHAPA | TITLE: Feetures Elite Max Cushion No Show Tab Socks
+  - phrase           cue=no       span=(27, 44) text='No Show Tab Socks' scope='Show Tab Socks'
+
+ECODE: 18RYBAWYFRRNTLTHVSGS | TITLE: Ray-Ban Adult Wayfarer No Tilt Sunglasses
+  - phrase           cue=no       span=(23, 41) text='No Tilt Sunglasses' scope='Tilt Sunglasses'
+
+ECODE: 19BGIABDYGLDNTCHFGAF | TITLE: Body Glide Anti-Chafe Balm
+  - prefix           cue=anti     span=(11, 21) text='Anti-Chafe' scope='Chafe'
+
+ECODE: 20AC6ANTFGKTXXXXXSGS | TITLE: Chums Anti-Fog Lens Cleaning Kit
+  - prefix           cue=anti     span=(6, 14) text='Anti-Fog' scope='Fog'
+
+ECODE: 21ZAAMRSYTYLNTCHFPPR | TITLE: Chamois Butt'r Eurosytyle Anti-Chafe Cream
+  - prefix           cue=anti     span=(26, 36) text='Anti-Chafe' scope='Chafe'
+
+ECODE: 21ZAAWHRNTCHFCRM1PPR | TITLE: Chamois Butt'r Her' Anti-Chafe Cream 10 Pack
+  - prefix           cue=anti     span=(20, 30) text='Anti-Chafe' scope='Chafe'
+
+ECODE: 22UVOUMCFFNPNCTRTTAMB | TITLE: Muc-Off No Puncture Hassle Tubeless Sealant - 140ml Kit
+  - phrase           cue=no       span=(8, 35) text='No Puncture Hassle Tubeless' scope='Puncture Hassle Tubeless'
+
+ECODE: 22UVOUMCFFNPNCTRTTAMC | TITLE: Muc-Off No Puncture Hassle Inner Tube Sealant- 300ml
+  - phrase           cue=no       span=(8, 32) text='No Puncture Hassle Inner' scope='Puncture Hassle Inner'
+
+ECODE: 22YETUTNDRVLFT4PCREC | TITLE: YETI BearFoot Non-Slip Tundra Feet
+  - prefix           cue=non      span=(14, 22) text='Non-Slip' scope='Slip'
+
+ECODE: 2347BMNBGRZZLSNYNMEM | TITLE: '47 Adult Memphis Grizzlies No Shot Captain Snapback Hat
+  - phrase           cue=no       span=(28, 52) text='No Shot Captain Snapback' scope='Shot Captain Snapback'
+
+ECODE: 2347BMNBSPRSBLKNSSAN | TITLE: '47 Adult San Antonio Spurs No Shot Captain Snapback Hat
+  - phrase           cue=no       span=(28, 52) text='No Shot Captain Snapback' scope='Shot Captain Snapback'
+
+ECODE: 23KATUBFR10LMCRFLCAC | TITLE: Katadyn BeFree 1.0L Water Filtration System
+  - phrase           cue=x_free   span=(8, 14) text='BeFree' scope='None'
+
+ECODE: 23PETUNTSNWLPRDF1CAC | TITLE: Petzl Antisnow Leopard
+  - prefix           cue=anti     span=(6, 14) text='Antisnow' scope='snow'
+
+ECODE: 23TJVMMLBNFBSLNTMPTR | TITLE: LA GOLF Malibu Non-Face Balanced Slant Neck Putter
+  - prefix           cue=non      span=(15, 23) text='Non-Face' scope='Face'
+
+ECODE: 23UARWNSHWTHNGSLDAPU | TITLE: Under Armour Women's Pure Stretch No Show Thong - 3 Pack
+  - phrase           cue=no       span=(34, 47) text='No Show Thong' scope='Show Thong'
+
+ECODE: 24BROAMPWRHR20252SOX | TITLE: Brooks Adult Empower Her Ghost Lite No Show Socks - 2 Pack
+  - phrase           cue=no       span=(36, 49) text='No Show Socks' scope='Show Socks'
+
+ECODE: 24LOTALTTRCKT2PKLSOX | TITLE: Lotto Racket No Show Socks 2-Pack
+  - phrase           cue=no       span=(13, 26) text='No Show Socks' scope='Show Socks'
+
+ECODE: 24NIKWZNVYWDRBBRXAPUA | TITLE: Nike Women's Zenvy Rib Light-Support Non-Padded Longline Sports Bra (Plus Size)
+  - prefix           cue=non      span=(37, 47) text='Non-Padded' scope='Padded'
+
+ECODE: 24NSBURDBLLSFMBRDGEN | TITLE: Red Bull Sugarfree Amber Edition - 8.4 oz.
+  - phrase           cue=x_free   span=(9, 18) text='Sugarfree' scope='None'
+
+ECODE: 24ROXWNBDWVSBRDSHSRF | TITLE: Roxy Women's No Bad Waves Boardshorts
+  - phrase           cue=no       span=(13, 37) text='No Bad Waves Boardshorts' scope='Bad Waves Boardshorts'
+
+ECODE: 24XGLULFR20XXXXXXBIK | TITLE: Momentum Adult Lafree E+ 20 Electric Bike
+  - phrase           cue=x_free   span=(15, 21) text='Lafree' scope='None'
+
+ECODE: 25DARURUNNRNNSHWTBABF | TITLE: Darn Tough Men's Run No Show Tab Cushioned Ultra-Lightweight Running Socks
+  - phrase           cue=no       span=(21, 42) text='No Show Tab Cushioned' scope='Show Tab Cushioned'
+
+ECODE: 25FSDU5NKTLSNWBRDLUR | TITLE: No Live Bait Needed K-Tail Swimbait
+  - phrase           cue=no       span=(0, 19) text='No Live Bait Needed' scope='Live Bait Needed'
+
+ECODE: 25FSDU5NPDDLTLPRPLUR | TITLE: No Live Bait Needed Paddle Tail Swimbait
+  - phrase           cue=no       span=(0, 19) text='No Live Bait Needed' scope='Live Bait Needed'
+
+ECODE: 25GMJANCGRGRDDWGSGEO | TITLE: No Rivals Adult Georgia Bulldogs Red Established Adjustable Snapback
+  - phrase           cue=no       span=(0, 23) text='No Rivals Adult Georgia' scope='Rivals Adult Georgia'
+
+ECODE: 25GMJANCGRGRDVNTLGEO | TITLE: No Rivals Adult Georgia Bulldogs Red Vintage Logo Snapback
+  - phrase           cue=no       span=(0, 23) text='No Rivals Adult Georgia' scope='Rivals Adult Georgia'
+
+ECODE: 25GMJANCPSNVYRTRBPEN | TITLE: No Rivals Adult Penn State Nittany Lions Navy Retro Block Snapback
+  - phrase           cue=no       span=(0, 20) text='No Rivals Adult Penn' scope='Rivals Adult Penn'
+
+ECODE: 25GMJANCPSNVYVNTGPEN | TITLE: No Rivals Adult Penn State Nittany Lions Navy Vintage Snapback
+  - phrase           cue=no       span=(0, 20) text='No Rivals Adult Penn' scope='Rivals Adult Penn'
+
+ECODE: 25GMJANCTXMSPRSSDTEX | TITLE: No Rivals Adult Texas A&M Aggies Brown Espresso Adjustable Snapback
+  - phrase           cue=no       span=(0, 21) text='No Rivals Adult Texas' scope='Rivals Adult Texas'
+
+ECODE: 25LIQUCASULCTRLYTSHTM | TITLE: Liquid I.V. Sugar-Free Hydration Multiplier – 15 Pack
+  - phrase           cue=x_free   span=(12, 22) text='Sugar-Free' scope='Sugar'
+
+ECODE: 25NOLUFISH3JGHDKRMSUK | TITLE: No Live Bait Needed 3" Jig Head
+  - phrase           cue=no       span=(0, 19) text='No Live Bait Needed' scope='Live Bait Needed'
+
+ECODE: 25NOLUFISHHTHDS5JGPRQ | TITLE: No Live Bait Needed Hot Heads 5" Jig
+  - phrase           cue=no       span=(0, 19) text='No Live Bait Needed' scope='Live Bait Needed'
+
+ECODE: 25NOLUFISHNLBNJGHDVGS | TITLE: No Live Bait Needed Jig Head Box
+  - phrase           cue=no       span=(0, 19) text='No Live Bait Needed' scope='Live Bait Needed'
+
+ECODE: 25NSBURDBLLSBLSFXGEN | TITLE: Red Bull Sea Blue Sugarfree Energy Drink – 8.4 oz.
+  - phrase           cue=x_free   span=(18, 27) text='Sugarfree' scope='None'
+
+ECODE: 25NSBURDBLLWHTPCHGENA | TITLE: Red Bull Summer Edition 2025 Sugarfree Energy Drink – 8.4 oz.
+  - phrase           cue=x_free   span=(29, 38) text='Sugarfree' scope='None'
+
+ECODE: 25SWAUGOLFNFLNRFNDLAL | TITLE: SWAG Buffalo Bills No Refunds Fairway Wood Headcover
+  - phrase           cue=no       span=(19, 42) text='No Refunds Fairway Wood' scope='Refunds Fairway Wood'
+
+ECODE: 25WQTYNCTXSBLKYNFTEX | TITLE: BreakingT Youth Texas Longhorns Black Hometown No Fear Pullover Hoodie
+  - phrase           cue=no       span=(47, 70) text='No Fear Pullover Hoodie' scope='Fear Pullover Hoodie'
+
+ECODE: 15CTTM6WRKFLXBRWNFBO | TITLE: Carhartt Men’s 6-Inch Rugged Flex Non-Safety Toe Work Boot
+  - prefix           cue=non      span=(34, 44) text='Non-Safety' scope='Safety'
+
+ECODE: 15SKRUNTMCRBLMGCSSPM | TITLE: Shock Doctor Anti-Microbial Mouthguard Case
+  - prefix           cue=anti     span=(13, 27) text='Anti-Microbial' scope='Microbial'
+
+ECODE: 17IFOUSLVRPRFRMNCAPA | TITLE: Balega Silver No Show Running Socks
+  - phrase           cue=no       span=(14, 35) text='No Show Running Socks' scope='Show Running Socks'
+
+ECODE: 19UARYYTHPRFRMNCTAPA | TITLE: Under Armour Youth Performance Tech No Show Socks 6 Pack
+  - phrase           cue=no       span=(36, 49) text='No Show Socks' scope='Show Socks'
+
+ECODE: 20DIFALTRGLDXXXXXSOX | TITLE: Balega Unisex Ultra Glide No Show Socks
+  - phrase           cue=no       span=(26, 39) text='No Show Socks' scope='Show Socks'
+
+ECODE: 21TYRUSLCNWRNKLJRSWE | TITLE: TYR Youth Silicone Wrinkle-Free Swim Cap
+  - phrase           cue=x_free   span=(19, 31) text='Wrinkle-Free' scope='Wrinkle'
+
+ECODE: 21ZAAMRSTYLNTCHFCPPR | TITLE: Chamois Butt'r Eurostyle Anti-Chafe Cream 10 pack
+  - prefix           cue=anti     span=(25, 35) text='Anti-Chafe' scope='Chafe'
+
+ECODE: 22TPLUXPLRRDSCRCKBAR | TITLE: Topeak Explorer Disc Rack without Spring
+  - phrase           cue=without  span=(26, 40) text='without Spring' scope='Spring'
+
+ECODE: 2347BMNBCLPPRSRLNLAC | TITLE: '47 Adult Los Angeles Clippers No Shot Captain Snapback Hat
+  - phrase           cue=no       span=(31, 55) text='No Shot Captain Snapback' scope='Shot Captain Snapback'
+
+ECODE: 2347BMNBPCRSNVYNSIND | TITLE: '47 Adult Indiana Pacers No Shot Captain Snapback Hat
+  - phrase           cue=no       span=(25, 49) text='No Shot Captain Snapback' scope='Shot Captain Snapback'
+
+ECODE: 23LVWMMLBSTRSNVYZHOUA | TITLE: Levelwear Men's Houston Astros 2023 City Connect Navy Zane No Hitter Hoodie
+  - phrase           cue=no       span=(59, 75) text='No Hitter Hoodie' scope='Hitter Hoodie'
+
+ECODE: 23OBXAMCSHNDNSHW3SOX | TITLE: Bombas Men's Cushioned No Show Socks - 3 Pack
+  - phrase           cue=no       span=(23, 36) text='No Show Socks' scope='Show Socks'
+
+ECODE: 240DTMLTHKRNSHWLWSOX | TITLE: Darn Tough Light Hiker No Show Lightweight Hiking Sock
+  - phrase           cue=no       span=(23, 49) text='No Show Lightweight Hiking' scope='Show Lightweight Hiking'
+
+ECODE: 246THU6THSNSBXNNLLUR | TITLE: 6th Sense Non-Lead Bait Box Kit
+  - prefix           cue=non      span=(10, 18) text='Non-Lead' scope='Lead'
+
+ECODE: 24CMBGNSNWNGDWNPNYOA | TITLE: Columbia Girls' No Snowing Down Pants
+  - phrase           cue=no       span=(16, 37) text='No Snowing Down Pants' scope='Snowing Down Pants'
+
+ECODE: 24VYOUSTRRGLRXXXXCSL | TITLE: NEMO Astro Lightweight Non-Insulated Sleeping Pad
+  - prefix           cue=non      span=(23, 36) text='Non-Insulated' scope='Insulated'
+
+ECODE: 24WARUF2NNCRTCTYCHKP | TITLE: Warrior Hockey F2 Non-Certified Cat Eye Cage
+  - prefix           cue=non      span=(18, 31) text='Non-Certified' scope='Certified'
+
+ECODE: 2547BMNBPSTNSBLKCDET | TITLE: '47 Men's 2024-25 City Edition Detroit Pistons No Look Black T-Shirt
+  - phrase           cue=no       span=(47, 60) text='No Look Black' scope='Look Black'
+
+ECODE: 25BADAGOLFNSCHTHNGDBE | TITLE: Bad Birdie Adult No Such Thing Golf Hat
+  - phrase           cue=no       span=(17, 35) text='No Such Thing Golf' scope='Such Thing Golf'
+
+ECODE: 25BADMGOLFSSNSCHTHAFA | TITLE: Bad Birdie Men's No Such Thing Golf T-Shirt
+  - phrase           cue=no       span=(17, 35) text='No Such Thing Golf' scope='Such Thing Golf'
+
+ECODE: 25BALURUNNBLGS25LTTHC | TITLE: Balega Ultraglide with Lycra Dry No Show Tab Socks
+  - phrase           cue=no       span=(33, 50) text='No Show Tab Socks' scope='Show Tab Socks'
+
+ECODE: 25BASMBASEDLTPRSRSJFI | TITLE: Baseball Lifestyle 101 Men's 5” Pro Series Liner-less Shorts
+  - comparative_less cue=less     span=(49, 60) text='less Shorts' scope='Shorts'
+
+ECODE: 25BETMGOLF2026NTDTLKC | TITLE: Bettinardi Antidote SB3 Putter
+  - prefix           cue=anti     span=(11, 19) text='Antidote' scope='dote'
+
+ECODE: 25DYUMNCHSTRDLKHMOHI | TITLE: HOMAGE Men's Ohio State Buckeyes Red 'No Place Like Home' T-Shirt
+  - phrase           cue=no       span=(38, 56) text='No Place Like Home' scope='Place Like Home'
+
+ECODE: 25EJGALXSCCGRPKNSSOX | TITLE: LUX Anti Slip Soccer Knee Socks - 2 Pack
+  - prefix           cue=anti     span=(4, 13) text='Anti Slip' scope='Slip'
+
+ECODE: 25EJGALXSCCGRPKNSSOXA | TITLE: LUX Anti Slip Soccer Knee Socks - 3 Pack
+  - prefix           cue=anti     span=(4, 13) text='Anti Slip' scope='Slip'
+
+ECODE: 25FSDU5NJGHDHYB34LUR | TITLE: No Live Bait Needed Jighead
+  - phrase           cue=no       span=(0, 19) text='No Live Bait Needed' scope='Live Bait Needed'
+
+ECODE: 25KATUHIKIBFRCRPLBEJI | TITLE: Katadyn BeFree AC Replacement
+  - phrase           cue=x_free   span=(8, 14) text='BeFree' scope='None'
+
+ECODE: 25NIKWFITNZNVY78SMFAD | TITLE: Nike Women's Zenvy High-Waisted 7/8 Leggings with No Front Seam
+  - phrase           cue=no       span=(50, 63) text='No Front Seam' scope='Front Seam'
+
+ECODE: 25NOLUFISH8NSTRGHTDDB | TITLE: No Live Bait Needed Straight Tail Swimbait
+  - phrase           cue=no       span=(0, 19) text='No Live Bait Needed' scope='Live Bait Needed'
+
+ECODE: 25NOLUFISHHTHDS3JGWRY | TITLE: No Live Bait Needed Hot Heads 3" Jig
+  - phrase           cue=no       span=(0, 19) text='No Live Bait Needed' scope='Live Bait Needed'
+
+ECODE: 25REDUCASURDBLLFJPJGC | TITLE: Red Bull Sugarfree Winter Edition 2025 Energy Drink – 8.4 oz.
+  - phrase           cue=x_free   span=(9, 18) text='Sugarfree' scope='None'
+
+ECODE: 15LUHUKWKFSHK11XTLUR | TITLE: Luhr-Jensen Kwikfish Xtreme Crankbait (non-rattle)
+  - prefix           cue=non      span=(39, 49) text='non-rattle' scope='rattle'
+
+ECODE: 20CGRUSNDLTSNDFRBBCH | TITLE: CGear SandLite Sand-Free Blanket
+  - phrase           cue=x_free   span=(15, 24) text='Sand-Free' scope='Sand'
+
+ECODE: 20HRBUBSC2X6X38XXEAC | TITLE: Harbinger Antimicrobial DuraFoam Mat
+  - prefix           cue=anti     span=(10, 23) text='Antimicrobial' scope='microbial'
+
+ECODE: 20TYRASPCLPS30NNPSWE | TITLE: TYR Adult Special Ops 3.0 Non-Polarized Goggles
+  - prefix           cue=non      span=(26, 39) text='Non-Polarized' scope='Polarized'
+
+ECODE: 22AIGUNTNHBBYTWLTACC | TITLE: Barstool Sports Ain't No Hobby Caddie Towel
+  - phrase           cue=no       span=(22, 43) text='No Hobby Caddie Towel' scope='Hobby Caddie Towel'
+
+ECODE: 22TLDA6PKPRCNTRSTSOX | TITLE: Timberland Pro Half Cushion No Show Socks - 6 Pack
+  - phrase           cue=no       span=(28, 41) text='No Show Socks' scope='Show Socks'
+
+ECODE: 22UVOUMCFFNPNCTRTTAMA | TITLE: Muc-Off No Puncture Hassle Tubeless Sealant – 1L
+  - phrase           cue=no       span=(8, 35) text='No Puncture Hassle Tubeless' scope='Puncture Hassle Tubeless'
+
+ECODE: 2347BMNBBCKSGRNNSMILA | TITLE: '47 Adult Milwaukee Bucks No Shot Captain Snapback Hat
+  - phrase           cue=no       span=(26, 50) text='No Shot Captain Snapback' scope='Shot Captain Snapback'
+
+ECODE: 2347BMNBPSTNSRYLNDET | TITLE: '47 Adult Detroit Pistons No Shot Captain Snapback Hat
+  - phrase           cue=no       span=(26, 50) text='No Shot Captain Snapback' scope='Shot Captain Snapback'
+
+ECODE: 2347BMNBRCKTSRDNSHOU | TITLE: '47 Adult Houston Rockets No Shot Captain Snapback Hat
+  - phrase           cue=no       span=(26, 50) text='No Shot Captain Snapback' scope='Shot Captain Snapback'
+
+ECODE: 2347BMNBWRRRSRLNSGSW | TITLE: '47 Adult Golden State Warriors No Shot Captain Snapback Hat
+  - phrase           cue=no       span=(32, 56) text='No Shot Captain Snapback' scope='Shot Captain Snapback'
+
+ECODE: 23LVWMMLBDDGRSRYLLADC | TITLE: Levelwear Men's Los Angeles Dodgers City Connect Royal Zane No Hitter Crew Neck Sweatshirt
+  - phrase           cue=no       span=(60, 79) text='No Hitter Crew Neck' scope='Hitter Crew Neck'
+
+ECODE: 23LVWMMLBGNTSGRYTSFG | TITLE: Levelwear Men's San Francisco Giants 2023 City Connect Gray Throttle No Hitter Hoodie
+  - phrase           cue=no       span=(69, 85) text='No Hitter Hoodie' scope='Hitter Hoodie'
+
+ECODE: 23LVWMMLBGNTSGRYZSFG | TITLE: Levelwear Men's San Francisco Giants City Connect Gray Zane No Hitter Crew Neck Sweatshirt
+  - phrase           cue=no       span=(60, 79) text='No Hitter Crew Neck' scope='Hitter Crew Neck'
+
+ECODE: 23NIKWSWSHHGHSPPRAPU | TITLE: Nike Women's Swoosh High Support Non-Padded Adjustable Sports Bra
+  - prefix           cue=non      span=(33, 43) text='Non-Padded' scope='Padded'
+
+ECODE: 23NSBURDBLLSGRFRXGEN | TITLE: Red Bull Sugarfree Energy Drink – 8.4 oz.
+  - phrase           cue=x_free   span=(9, 18) text='Sugarfree' scope='None'
+
+ECODE: 23OBXWWCSHNDNSHW3SOX | TITLE: Bombas Women's Cushioned No Show Socks - 3 Pack
+  - phrase           cue=no       span=(25, 38) text='No Show Socks' scope='Show Socks'
+
+ECODE: 23QYFMDSG6PKSPRNSSOX | TITLE: DSG Super No Show Socks - 6 Pack
+  - phrase           cue=no       span=(10, 23) text='No Show Socks' scope='Show Socks'
+
+ECODE: 23SWLAVRYDYNSHWSCSOX | TITLE: Smartwool Everyday No Show Zero Cushion Socks
+  - phrase           cue=no       span=(19, 39) text='No Show Zero Cushion' scope='Show Zero Cushion'
+
+ECODE: 23TJVMMLBXNFBSLNTPTR | TITLE: LA GOLF Malibu X Non-Face Balanced Slant Neck Putter
+  - prefix           cue=non      span=(17, 25) text='Non-Face' scope='Face'
+
+ECODE: 246THU6THSNSBXNNLLURA | TITLE: 6th Sense Non-Lead Bait Box Kit
+  - prefix           cue=non      span=(10, 18) text='Non-Lead' scope='Lead'
+
+ECODE: 24CMBMMRGNNSHNJCKAPO | TITLE: Columbia Men's Reign No Shine Jacket
+  - phrase           cue=no       span=(21, 36) text='No Shine Jacket' scope='Shine Jacket'
+
+ECODE: 24OBXACRMRLTCSHNSSOX | TITLE: Bombas Core Marl Toe Cushioned No Show Socks
+  - phrase           cue=no       span=(31, 44) text='No Show Socks' scope='Show Socks'
+
+ECODE: 24ST1ARNLTBXXXXXXSOX | TITLE: Stance Run Ultralight No Show Socks
+  - phrase           cue=no       span=(22, 35) text='No Show Socks' scope='Show Socks'
+
+ECODE: 25CMBWWRGNNSHNJCKAPO | TITLE: Columbia Women's Reign No Shine Jacket
+  - phrase           cue=no       span=(23, 38) text='No Shine Jacket' scope='Shine Jacket'
+
+ECODE: 25COLWHIKI2PPPRFRMEEB | TITLE: Columbia Performance No Show Socks - 2 Pack
+  - phrase           cue=no       span=(21, 34) text='No Show Socks' scope='Show Socks'
+
+ECODE: 25NOLUFISH4SHRMPJHVRY | TITLE: No Live Bait Needed 4” Shrimp Jig Head
+  - phrase           cue=no       span=(0, 19) text='No Live Bait Needed' scope='Live Bait Needed'
+
+ECODE: 25NOLUFISH4SHRMPTLZXE | TITLE: No Live Bait Needed 4" Shrimp Tail Bait
+  - phrase           cue=no       span=(0, 19) text='No Live Bait Needed' scope='Live Bait Needed'
+
+ECODE: 25UNDWCASUPRSTRTCHFDE | TITLE: Under Armour Women's Pure Stretch No Show Bikini Underwear - 3 Pack
+  - phrase           cue=no       span=(34, 58) text='No Show Bikini Underwear' scope='Show Bikini Underwear'
+
+ECODE: 16JUGUDMPLDYLLWSFTRA | TITLE: Jugs 12" Sting-Free Dimpled Pitching Machine Softballs - 12 Pack
+  - phrase           cue=x_free   span=(9, 19) text='Sting-Free' scope='Sting'
+
+ECODE: 16SPZUSPDZFGZFFRFOPT | TITLE: Alpine Innovations Spudz Fogz Off Anti-Fog Solution
+  - prefix           cue=anti     span=(34, 42) text='Anti-Fog' scope='Fog'
+
+ECODE: 17KATUBFRRPLCMNTCCAC | TITLE: Katadyn BeFree EZ Clean Membrane Filter Cartridge
+  - phrase           cue=x_free   span=(8, 14) text='BeFree' scope='None'
+
+ECODE: 17XASY8FTCMPCTRNDSTG | TITLE: Springfree Trampoline 8’ Compact Round Trampoline
+  - phrase           cue=x_free   span=(0, 10) text='Springfree' scope='None'
+
+ECODE: 18FEEULTLTRLGHTNSAPA | TITLE: Feetures Elite Ultra-Light Cushion No Show Tab Socks
+  - phrase           cue=no       span=(35, 52) text='No Show Tab Socks' scope='Show Tab Socks'
+
+ECODE: 18OBXWWCSHNDNSHWXAPA | TITLE: Bombas Women’s Cushioned No Show Socks
+  - phrase           cue=no       span=(25, 38) text='No Show Socks' scope='Show Socks'
+
+ECODE: 19NLKUTRWRLSSRBDSTCH | TITLE: iLIVE Truly Wire-Free Earbuds
+  - phrase           cue=x_free   span=(12, 21) text='Wire-Free' scope='Wire'
+
+ECODE: 19UARMPRFRMNCTCH6APA | TITLE: Under Armour Adult Performance Tech No Show Socks - 6 Pack
+  - phrase           cue=no       span=(36, 49) text='No Show Socks' scope='Show Socks'
+
+ECODE: 2347BMNBJZZBLKNSHUTA | TITLE: '47 Adult Utah Jazz No Shot Captain Snapback Hat
+  - phrase           cue=no       span=(20, 44) text='No Shot Captain Snapback' scope='Shot Captain Snapback'
+
+ECODE: 2347BMNBLKRSYLWNSLAL | TITLE: '47 Adult Los Angeles Lakers No Shot Captain Snapback Hat
+  - phrase           cue=no       span=(29, 53) text='No Shot Captain Snapback' scope='Shot Captain Snapback'
+
+ECODE: 23KATUBLKBFRMCRFLCAC | TITLE: Katadyn Black BeFree Microfilter Bottle - 1 Liter
+  - phrase           cue=x_free   span=(14, 20) text='BeFree' scope='None'
+
+ECODE: 23LVWMMLBCBSNVYZNCHCA | TITLE: Levelwear Men's Chicago Cubs 2023 City Connect Navy Zane No Hitter Crew Neck Sweatshirt
+  - phrase           cue=no       span=(57, 76) text='No Hitter Crew Neck' scope='Hitter Crew Neck'
+
+ECODE: 23LVWMMLBDBCKSBLKARZF | TITLE: Levelwear Men's Arizona Diamondbacks 2023 City Connect Black Throttle No Hitter Hoodie
+  - phrase           cue=no       span=(70, 86) text='No Hitter Hoodie' scope='Hitter Hoodie'
+
+ECODE: 24ADIADDS6PKPRFBSAPAA | TITLE: adidas Unisex Performance 6-Pack No Show Socks
+  - phrase           cue=no       span=(33, 46) text='No Show Socks' scope='Show Socks'
+
+ECODE: 24ADIYNCKNSSRYLNTKAN | TITLE: adidas Youth Kansas Jayhawks Blue Not Deep T-Shirt
+  - phrase           cue=not      span=(34, 42) text='Not Deep' scope='Deep'
+
+ECODE: 24JLOWCLPRFRMNSTBAPA | TITLE: CALIA Women's 2-Pack Performance No Show Tab Socks
+  - phrase           cue=no       span=(33, 50) text='No Show Tab Socks' scope='Show Tab Socks'
+
+ECODE: 24UARWNSHWTHNGPRNAPU | TITLE: Under Armour Women's Pure Stretch No Show Printed Thong - 3 Pack
+  - phrase           cue=no       span=(34, 55) text='No Show Printed Thong' scope='Show Printed Thong'
+
+ECODE: 2547BMNBTHNDRBLKCOKC | TITLE: '47 Men's 2024-25 City Edition Oklahoma City Thunder No Look Black T-Shirt
+  - phrase           cue=no       span=(53, 66) text='No Look Black' scope='Look Black'
+
+ECODE: 25ADIASPRLT306PCKAPA | TITLE: adidas Superlite 3.0 No Show Socks - 6 Pack
+  - phrase           cue=no       span=(21, 34) text='No Show Socks' scope='Show Socks'
+
+ECODE: 25GMJANCVNDYBLKCLVAN | TITLE: No Rivals Adult Vanderbilt Commodores Black Classic Adjustable Snapback
+  - phrase           cue=no       span=(0, 26) text='No Rivals Adult Vanderbilt' scope='Rivals Adult Vanderbilt'
+
+ECODE: 25MXEUPLYNTXMSTSPGEN | TITLE: Supergoop! Play Antioxidant Body Mist SPF 30 with Vitamin C
+  - prefix           cue=anti     span=(16, 27) text='Antioxidant' scope='oxidant'
+
+ECODE: 25TZGUWLFFWSNTLVFACC | TITLE: REWIND Golf Wolf of Wall Street I'm Not Leaving Fairway Wood Headcover
+  - phrase           cue=not      span=(36, 60) text='Not Leaving Fairway Wood' scope='Leaving Fairway Wood'
+
+ECODE: 25WHGMWHM3PKPRFNSAPA | TITLE: Walter Hagen Men's Performance No Show Sock 3-Pack
+  - phrase           cue=no       span=(31, 43) text='No Show Sock' scope='Show Sock'
+
+ECODE: 15BKYUGLP2PNCHCRWLUR | TITLE: Berkley Gulp! Pinched Crawler Non Floating Soft Bait
+  - prefix           cue=non      span=(30, 42) text='Non Floating' scope='Floating'
+
+ECODE: 17XASUSPRNGFRFLXRSTGA | TITLE: Springfree Trampoline FlexrStep
+  - phrase           cue=x_free   span=(0, 10) text='Springfree' scope='None'
+
+ECODE: 2347BMNBNTSBLKNSHBKN | TITLE: '47 Adult Brooklyn Nets No Shot Captain Snapback Hat
+  - phrase           cue=no       span=(24, 48) text='No Shot Captain Snapback' scope='Shot Captain Snapback'
+
+ECODE: 23FEEALTLTCSHNSTBSOX | TITLE: Feetures Elite Light Cushion No Show Tab
+  - phrase           cue=no       span=(29, 40) text='No Show Tab' scope='Show Tab'
+
+ECODE: 23FEEALTLTRLTNSTBSOX | TITLE: Feetures Elite Ultra Light No Show Tab Socks
+  - phrase           cue=no       span=(27, 44) text='No Show Tab Socks' scope='Show Tab Socks'
+
+ECODE: 23NIKWSWSHLWSPPRTAPU | TITLE: Nike Women's Swoosh Light Support Non-Padded Sports Bra
+  - prefix           cue=non      span=(34, 44) text='Non-Padded' scope='Padded'
+
+ECODE: 23TYRUSPCLPSXXXXXSWE | TITLE: TYR Special Ops 2.0 Polarized Non-Mirrored Adult Swimming Goggles
+  - prefix           cue=non      span=(30, 42) text='Non-Mirrored' scope='Mirrored'
+
+ECODE: 24BNDM25NTDTCSTMPPTR | TITLE: Bettinardi Antidote Custom Putter
+  - prefix           cue=anti     span=(11, 19) text='Antidote' scope='dote'
+
+ECODE: 24GMNUCHMPHD273PSFEL | TITLE: Garmin Panoptix™ PS22-IF Ice Fishing Bundle with  PS22-IF Transducer and Pole-free Transducer Rotation System
+  - phrase           cue=x_free   span=(73, 82) text='Pole-free' scope='Pole'
+
+ECODE: 24JLOWCL2PKGRPPRNSOX | TITLE: CALIA Women's Gripper No Show Socks 2-Pack
+  - phrase           cue=no       span=(22, 35) text='No Show Socks' scope='Show Socks'
+
+ECODE: 24OBXAMRNBLNDSLDNSOX | TITLE: Bombas Merino Blend Solid No Show Socks
+  - phrase           cue=no       span=(26, 39) text='No Show Socks' scope='Show Socks'
+
+ECODE: 24VYOUQSR3DRGLRWDCSL | TITLE: NEMO Quasar 3D Lightweight Non-Insulated Sleeping Pad
+  - prefix           cue=non      span=(27, 40) text='Non-Insulated' scope='Insulated'
+
+ECODE: 25EJGALXSCCGRPCLFSOX | TITLE: LUX Anti Slip Soccer Calf Socks - 2 Pack
+  - prefix           cue=anti     span=(4, 13) text='Anti Slip' scope='Slip'
+
+ECODE: 25GMJANCVNDYBLKVNVAN | TITLE: No Rivals Adult Vanderbilt Commodores Black Vintage Adjustable Snapback
+  - phrase           cue=no       span=(0, 26) text='No Rivals Adult Vanderbilt' scope='Rivals Adult Vanderbilt'
+
+ECODE: 25ICYUFITNCYHTRLLNAFB | TITLE: Icy Hot No Mess Pain Relief Roll On With Lidocaine 1.5 oz
+  - phrase           cue=no       span=(8, 27) text='No Mess Pain Relief' scope='Mess Pain Relief'
+
+ECODE: 25MXEUPLYNTXDNTMSGEN | TITLE: Supergoop! Play Antioxidant Mist SPF 50
+  - prefix           cue=anti     span=(16, 27) text='Antioxidant' scope='oxidant'
+
+ECODE: 25NIKWFITNWNPLSBRTYAQ | TITLE: Nike Women's Pro Light-Support Non-Padded Sports Bra
+  - prefix           cue=non      span=(31, 41) text='Non-Padded' scope='Padded'
+
+ECODE: 25NOLAFISHNLBN6PNLWMI | TITLE: No Live Bait Needed 6 Panel Performance Hat
+  - phrase           cue=no       span=(0, 19) text='No Live Bait Needed' scope='Live Bait Needed'
+
+ECODE: 25STAACASUGMT23PCKACB | TITLE: Stance Gamut 2 No Show Socks - 3 Pack
+  - phrase           cue=no       span=(15, 28) text='No Show Socks' scope='Show Socks'
+
+ECODE: 25TRAMGOLFSSNLKNGBBCC | TITLE: TravisMathew Men’s No Looking Back Golf T-Shirt
+  - phrase           cue=no       span=(19, 39) text='No Looking Back Golf' scope='Looking Back Golf'
+
