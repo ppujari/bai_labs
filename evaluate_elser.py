@@ -7,9 +7,9 @@ import os
 from collections import defaultdict
 
 # Configuration
-ES_HOST = "https://dsg-search-dev-east.es.eastus.azure.elastic-cloud.com"
-ES_USER = os.getenv("ES_USER", "data_ingestion")
-ES_PASS = os.getenv("ES_PASS", "FVG8%7SMUys$dp4m")
+ES_HOST = "ES_HOST"
+ES_USER = os.getenv("ES_USER", "ES_USER")
+ES_PASS = os.getenv("ES_PASS", "ES_PASS")
 
 # Model configurations
 MODELS = {
