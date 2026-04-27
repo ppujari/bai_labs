@@ -7,8 +7,8 @@ import os
 
 # Configuration
 ES_HOST = "https://dsg-search-dev-east.es.eastus.azure.elastic-cloud.com"
-ES_USER = os.getenv("ES_USER", "data_ingestion")
-ES_PASS = os.getenv("ES_PASS", "FVG8%7SMUys$dp4m")
+ES_USER = os.getenv("ES_USER", "user_name")
+ES_PASS = os.getenv("ES_PASS", "pass")
 
 # Models to compare
 MODELS = {
