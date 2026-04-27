@@ -6,7 +6,7 @@ from sklearn.metrics import ndcg_score
 import os
 
 # Configuration
-ES_HOST = "https://dsg-search-dev-east.es.eastus.azure.elastic-cloud.com"
+ES_HOST = "host_name"
 ES_USER = os.getenv("ES_USER", "user_name")
 ES_PASS = os.getenv("ES_PASS", "pass")
 
